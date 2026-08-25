@@ -1,0 +1,33 @@
+.custom-list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  background-color: var(--card-bg);
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.list-item:hover {
+  transform: translateX(4px);
+  border-color: var(--text-muted);
+}
+
+.list-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 1rem;
+  color: var(--text-color);
+  flex-shrink: 0;
+  margin-top: 0.125rem;
+}
+
+.list-item span {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
