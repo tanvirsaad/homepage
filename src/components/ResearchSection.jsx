@@ -6,7 +6,7 @@ export default function ResearchSection() {
       title: "TablePN: How contrastive cot steps evolve a process reward models for tables",
       supervisors: [
         { name: "Dr. Mohammed Eunus Ali", link: "https://cse.buet.ac.bd/faculty/faculty_detail/eunus" },
-        { name: "Md Tanvir Parvez", link: "https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en" }
+        { name: "Md Rizwan Parvez", link: "https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en" }
       ],
       description: "TablePN trains PRM for table tasks using contrastive chain-of-thought (CoT) supervision. It explores how simple contrastive samples and CoT structures affect reward signal quality and downstream fine-tuning performance on tasks like table reasoning. The research scope is to develop effective reward models that capture step-by-step reasoning quality for tables using contrastive CoT.",
     },
@@ -20,17 +20,17 @@ export default function ResearchSection() {
   const completedResearch = [
     {
       title: "Mapeval: A map-based evaluation of geo-spatial reasoning in foundation models",
-      venue: "Accepted in ICML 2025 \"Spotlight\"",
+      venue: <><span className="venue-highlight">Accepted</span> <span className="venue-text">ICML 2025</span> <span className="venue-highlight">Spotlight</span></>,
       link: "https://arxiv.org/abs/2501.00316",
       supervisors: [
         { name: "Dr. Mohammed Eunus Ali", link: "https://cse.buet.ac.bd/faculty/faculty_detail/eunus" },
-        { name: "Md Tanvir Parvez", link: "https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en" }
+        { name: "Md Rizwan Parvez", link: "https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en" }
       ],
       description: "MapEval evaluates how well foundation models perform geospatial reasoning through textual, API-based, and visual map tasks across 180 cities and 54 countries. Its research scope includes navigation, spatial relationships, route planning, distances, and travel planning. Results show that current models still perform well below humans, highlighting major gaps in real-world spatial reasoning."
     },
     {
       title: "How Semantically Stable Are LLM Refusals? Measuring Confusion in Local Safety Boundaries",
-      venue: "IEEE DSAA 2026 (Accept - Short Presentation)",
+      venue: <><span className="venue-highlight">Accepted</span> <span className="venue-text">IEEE DSAA 2026</span> <span className="venue-highlight">Short Presentation</span></>,
       supervisors: [
         { name: "Dr. Ch. Md. Rakin Haider", link: "https://cse.buet.ac.bd/faculty/faculty_detail/rakinhaider" }
       ],
@@ -38,7 +38,7 @@ export default function ResearchSection() {
     },
     {
       title: "DFCon: Attention-Driven Supervised Contrastive Learning for Robust Deepfake Detection",
-      venue: "1st Runners Up, IEEE Signal Processing Cup 2025 | ICASSP 2026 Under Review",
+      venue: <><span className="venue-highlight">1st Runners Up</span> <span className="venue-text">IEEE Signal Processing Cup 2025</span> <span className="venue-highlight">Under Review</span> <span className="venue-text">ICASSP 2026</span></>,
       supervisors: [
         { name: "Dr. Mohammad Saifur Rahman", link: "https://scholar.google.com/citations?user=9d52x-cAAAAJ&hl=en" }
       ],

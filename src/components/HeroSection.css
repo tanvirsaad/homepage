@@ -8,7 +8,7 @@
 
 .hero-content {
   flex: 1;
-  max-width: 650px;
+  max-width: 750px;
 }
 
 .hero-title {
@@ -16,7 +16,7 @@
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.04em;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .hero-subtitle {
@@ -70,7 +70,7 @@
   width: 60px;
   height: 60px;
   top: 40px;
-  left: -60px;
+  left: -20px;
   animation: spin 10s linear infinite;
   opacity: 0.3;
 }

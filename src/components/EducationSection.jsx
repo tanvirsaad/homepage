@@ -6,11 +6,13 @@ export default function EducationSection() {
       institution: "Bangladesh University of Engineering and Technology (BUET)",
       degree: "B.Sc. in Computer Science and Engineering",
       period: "2020 - 2025",
+      details: <><span className="cgpa-badge">CGPA 3.96</span> <span className="cgpa-text">Top 10% of graduating class</span></>
     },
     {
       institution: "Notre Dame College",
       degree: "Higher Secondary Certificate (HSC)",
       period: "2017 - 2019",
+      details: <><span className="cgpa-badge">GPA 5.00 / 5.00</span></>
     }
   ];
 
@@ -22,9 +24,12 @@ export default function EducationSection() {
           <div key={index} className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-content">
-              <h3 className="timeline-title">{item.institution}</h3>
+              <div className="flex items-center justify-between flex-wrap gap-2 mb-1">
+                <h3 className="timeline-title mb-0">{item.institution}</h3>
+                <span className="timeline-period">{item.period}</span>
+              </div>
               <p className="timeline-subtitle">{item.degree}</p>
-              <span className="timeline-period">{item.period}</span>
+              {item.details && <p className="timeline-details mt-2">{item.details}</p>}
             </div>
           </div>
         ))}

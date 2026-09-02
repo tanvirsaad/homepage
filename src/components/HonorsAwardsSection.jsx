@@ -2,12 +2,14 @@ import './ListSection.css';
 
 export default function HonorsAwardsSection() {
   const awards = [
-    "1st Runners Up, IEEE Signal Processing Cup 2025",
-    "Winner at CTF Competitions",
-    "Blockchain Olympiad Award",
-    "Dean's List Award (Multiple Semesters)",
-    "National Hackathon BUET Participant",
-    "PTAK Case Competition Winner"
+    "1st Runners Up, IEEE Signal Processing Cup 2025 — Presented at ICASSP 2025",
+    "Dean's List Award, BUET — 4 out of 4 levels — Academic Merit",
+    "2024 Research Grant Recipient, RISE Research Grant Award",
+    "2024 Silver Award, Blockchain Olympiad Bangladesh",
+    "2nd Runner‑Up, IUT CTF 2024",
+    "2023 Champion, DL Sprint 2.0 BUET CSE FEST 2023",
+    "2023 2nd Runner‑Up, Web3 Hackathon BUET CSE FEST 2023",
+    "60% Scholarship — PTAK Case Competition 2021"
   ];
 
   return (

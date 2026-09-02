@@ -6,9 +6,8 @@ export default function HeroSection() {
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-title">MD Tanvir Hassan</h1>
-          <p className="hero-subtitle">Software Engineer @ TherapBD</p>
           <p className="hero-bio">
-            Hi I am Tanvir, who is really interested in how LLMs work, how efficient agentic systems can be built, and how we can better understand their behavior. Currently, I’m exploring agentic security attack trajectories and their behavioral patterns, as well as how tabular-data CoT process reward models (PRMs) behave with contrastive step samples. Outside of research, I enjoy music, playing the violin in my free time, and traveling to new places and discovering the unknown.
+            Hi I am MD Tanvir Hassan. I am a recent <strong>Computer Science graduate</strong> from <strong>Bangladesh University of Engineering and Technology (BUET)</strong>. My research interest is <strong>LLMs, efficient agentic systems</strong>, how they can be built, and how we can better understand their behavior. Currently, I’m exploring <strong>agentic security attack trajectories</strong> and their behavioral patterns and motifs, as well as how <strong>tabular-data CoT process reward models (PRMs)</strong> behave with contrastive step samples. I completed my thesis work on <strong>Geospatial reasoning of LLMs</strong> under the guidance of <a href="https://cse.buet.ac.bd/faculty/faculty_detail/eunus" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline'}}>Dr. Eunus Ali</a> and <a href="https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline'}}>Md Rizwan Parvez</a>. I am currently working as a <strong>software engineer at TherapBD</strong> on building an efficient and robust architecture. Outside of research, I enjoy music, playing the violin in my free time, and traveling to new places and discovering the unknown.
           </p>
 
           <div className="hero-actions flex items-center gap-4 mt-8">

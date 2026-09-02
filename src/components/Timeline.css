@@ -66,3 +66,27 @@
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
 }
+
+.timeline-details {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.cgpa-badge {
+  font-weight: 700;
+  color: var(--bg-color);
+  background-color: var(--text-color);
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.85rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.cgpa-text {
+  font-style: italic;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
