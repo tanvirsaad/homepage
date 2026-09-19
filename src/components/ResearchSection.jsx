@@ -68,19 +68,6 @@ export default function ResearchSection() {
       <h2 className="section-title">Research Experience</h2>
       
       <div className="research-category">
-        <h3 className="category-title">Ongoing</h3>
-        <div className="research-list flex-col gap-6">
-          {ongoingResearch.map((item, index) => (
-            <div key={index} className="research-item">
-              <h4 className="research-title">{item.title}</h4>
-              {renderSupervisors(item.supervisors)}
-              <p className="research-description">{item.description}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div className="research-category mt-8">
         <h3 className="category-title">Completed</h3>
         <div className="research-list flex-col gap-6">
           {completedResearch.map((item, index) => (
@@ -96,6 +83,19 @@ export default function ResearchSection() {
                 )}
               </h4>
               <p className="research-venue">{item.venue}</p>
+              {renderSupervisors(item.supervisors)}
+              <p className="research-description">{item.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="research-category mt-8">
+        <h3 className="category-title">Ongoing</h3>
+        <div className="research-list flex-col gap-6">
+          {ongoingResearch.map((item, index) => (
+            <div key={index} className="research-item">
+              <h4 className="research-title">{item.title}</h4>
               {renderSupervisors(item.supervisors)}
               <p className="research-description">{item.description}</p>
             </div>
